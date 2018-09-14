@@ -1,0 +1,54 @@
+.bs_xmas{font-family:lucida;}
+.bs_xmas #bs_shadow{position:absolute;z-index:100;bottom:-40px;width:112%;height:97px;left:-6%;}
+.bs_xmas #bs_shadow img{width:100%;height:100%;}
+.bs_xmas #bs_lbal{height:100%;left:0;position:absolute;top:0;z-index:100;}
+.bs_xmas #bs_rbal{height:100%;right:0;position:absolute;top:0;z-index:100;}
+.bs_xmas #bs_tbal{width:106%;height:112px;left:-3%;top:-8%;position:absolute;z-index:100;}
+.bs_xmas .bs_balcony img{height:100%;}
+.bs_xmas .bs_tbalcony img{width:100%;}
+.bs_xmas .bs_bullet_control{ margin-bottom:60px;z-index:100;}
+.bs_xmas #bs_bullet_inner_viewport{border-bottom:solid 1px white;}
+.bs_xmas .bs_bt_preview { top:50px;}
+.bs_xmas .bs_bullet_control #bs_bullet_viewport{ margin-top:20px;}
+.bs_xmas .bs_bullet_control #bs_bullet_inner_viewport{ padding:10px;display:inline-block;}
+.bs_xmas #left_btn{ width:64px;height:62px;background-image:url(../../img/skin/xmas.png);background-position:0% 0%;left:-64px;}
+.bs_xmas #right_btn{ width:64px;height:62px;background-image:url(../../img/skin/xmas.png);background-position:100% 0%;right:-64px;}
+.bs_xmas .bs_vcarousel.bs_bullet{ margin-top:20px !important;}
+.bs_xmas .bs_vcarousel{width:60px;height:100%;z-index:50;left:0;margin:0px 15px;}
+.bs_xmas .bs_vcarousel.bs_bullet{ margin-top:20px !important;}
+.bs_xmas .bs_vcarousel #bs_vviewport .carousel{width:57px;height:58px;margin:0;cursor:pointer;position: relative;}
+.bs_xmas .bs_vcarousel #bs_vviewport .carousel.active .bs_ci{width:38px;height:38px;margin:8px 14px;}
+.bs_xmas .bs_vcarousel #bs_vviewport .carousel:hover .bs_ci{width:38px;height:38px;margin:8px 14px;}
+.bs_xmas .bs_vcarousel #bs_vviewport .carousel .bs_tcarousel{width:57px;height:58px;background-image:url(../../img/skin/t_xmas.png);background-position:0% 0%;position:absolute;left:0;top:0;}
+.bs_xmas .bs_vcarousel #bs_vviewport .carousel:hover .bs_tcarousel,.bs_xmas .bs_vcarousel #bs_vviewport .carousel.active .bs_tcarousel{background-position:100% 0%;margin:0px 5px;}
+.bs_xmas .bs_vcarousel #bs_vviewport .bs_ci{width:38px;height:38px;margin:8px 9px;overflow:hidden;}
+.bs_xmas .bs_vcarousel #bs_vviewport .bs_ci img{width:150px;}
+.bs_xmas .bs_circle{width:16px;height:18px;background-image:url(../../img/skin/c_xmas.png); }
+.bs_xmas .bs_nav{top:50%;margin-top:-31px;}
+.bs_xmas .bs_a_play{position:absolute;left:50%;bottom:0px;margin:10px 20px;width:16px;height:20px;background-image:url(../../img/skin/p_xmas.png);background-position:100% 0%;z-index:180;margin-left:-9px;}
+.bs_xmas .bs_a_pause{background-position:0% 0%;}
+.bs_xmas .bs_load{width:48px;height:48px;margin-left:-24px;margin-top:-24px;}
+.bs_xmas .bs_caption{position:absolute; font-family:lucida;font-size:24px;filter: alpha(opacity=40);background-color:#000;background-color:rgba(0,0,0,0.6);right:0;bottom:30px; color: #fff; }
+.bs_xmas .bs_caption a{ color:#fff !important; line-height:normal !important;}
+.bs_xmas .bs_caption div{margin:10px 20px;}
+.bs_xmas .bs_des{font-size:11px;opacity:.75;filter: alpha(opacity=70);-moz-opacity:.75;-khtml-opacity:.75;display:none;}
+/* xmas Skin Lightbox*/
+.bs_xmas #bs_lightbox{z-index:200;}
+.bs_xmas #bs_sublightbox{position:absolute; background-color:#000; border: 0px; box-shadow: 4px 4px 4px #000000; z-index:200; left:50%; top:50%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box;    /* Firefox, other Gecko */box-sizing: border-box;         /* Opera/IE 8+ */}
+.bs_xmas .bs_lcontrol{background:url(../../img/skin/xmas.png);position:absolute;width:64px;height:62px;z-index:50;cursor:pointer;}
+.bs_xmas #bs_lightbox_control_prev{left:-60px;top:50%;margin-top:-31px;}
+.bs_xmas #bs_lightbox_control_next{right:-60px;top:50%;margin-top:-31px;background-position:100% 0%;}
+.bs_xmas #bs_lightbox_control_close{background:url(../../img/skin/xmas_close.png);position:absolute;width:20px;height:19px;z-index:50;left:0;margin:10px;cursor:pointer;}
+.bs_xmas #bs_thumb_container .bs_thumb{float:left;width:54px;height:59px;background:url(../../img/skin/t_default.png);background-position:100% 0;overflow:hidden;}
+.bs_xmas #bs_thumb_container .bs_thumb:hover,.bs_xmas #bs_thumb_container .bs_thumb.active{background-position:0;}
+.bs_xmas #bs_thumb_container .bs_thumb .bs_subthumb{position:absolute;overflow:hidden;margin:12px 7px;width:40px;height:40px;}
+.bs_xmas #bs_thumb_container .bs_thumb.active .bs_subthumb,.bs_xmas #bs_thumb_container .bs_thumb:hover .bs_subthumb{margin:9px 7px;}
+.bs_xmas #bs_thumb_container .bs_thumb img{width:100px;}
+.bs_xmas #bs_lbox{position:absolute;width:42px;height:42px;z-index:60;cursor:pointer;background-image:url(../../img/skin/xmas_switch.png);background-position:0% 0;right:20px;top:25px;z-index:100;margin:0;}
+.bs_xmas #bs_lbox:hover{background-position:100% 0;margin:0;}
+.bs_xmas .bs_play,.bs_container .bs_pause{width:42px !important;height:42px !important;cursor:pointer;left:50%;top:50%;position:absolute;margin:-21px;}
+.bs_xmas #lp_ct.progressbar{top:auto;bottom:0;z-index:200;left:10px;}
+.bs_xmas #cprogress{left:20px;top:20px;}
+@font-face { font-family: lucida; src: url('../font/BEBAS.ttf'); } 
+
+

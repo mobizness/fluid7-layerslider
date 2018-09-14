@@ -1,0 +1,45 @@
+.bs_beach{}
+.bs_beach #bs_shadow{position:absolute;z-index:0;bottom:-58px;width:100%;height:53px;}
+.bs_beach #bs_shadow img{width:100%;height:100%;}
+.bs_beach .bs_bt_preview { top:-45px;display:none !Important;}
+.bs_beach .bs_bullet_control{bottom:-60px;}
+.bs_beach .bs_bullet_control #bs_bullet_viewport{}
+.bs_beach .bs_bullet_control #bs_bullet_inner_viewport{ padding:10px; display:inline-block;}
+.bs_beach .bs_nav{top:50%;margin-top:-24px;}
+.bs_beach #left_btn{ width:48px;height:49px;background-image:url(../../img/skin/beach.png);left:20px;z-index:100;}
+.bs_beach #right_btn{ width:48px;height:49px;background-image:url(../../img/skin/beach.png); right:20px;z-index:100;}
+.bs_beach .bs_a_play{position:absolute;right:18px;top:75px;width:30px;height:30px;background-image:url(../../img/skin/p_beach.png);background-position:100% 0%;z-index:50;}
+.bs_beach .bs_play{width:41px !important;height:57px !important;margin-left:-20px !important;margin-top:-28px !important;}
+.bs_beach .bs_a_pause{background-position:0% 0%;}
+.bs_beach .bs_hcarousel{position:absolute;overflow:hidden;width:100%;height:90px;top:auto;bottom:-50px;z-index:100;}
+.bs_beach #bs_hviewport{top:0;height:110px;margin:0 auto;}
+.bs_beach .bs_hcarousel.bs_bullet{ margin-top:40px !important;}
+.bs_beach .bs_hcarousel #bs_hviewport .carousel{width:80px;height:80px;margin:0px 5px;}
+.bs_beach .bs_hcarousel #bs_hviewport .carousel.active{}
+.bs_beach .bs_hcarousel #bs_hviewport .carousel:hover{}
+.bs_beach .bs_hcarousel #bs_hviewport .carousel.active .bs_ci{border:solid 5px #cce85d;border:solid 5px rgba(170,243,32,0.6);}
+.bs_beach .bs_hcarousel #bs_hviewport .carousel:hover .bs_ci{border:solid 5px #cce85d;border:solid 5px rgba(170,243,32,0.6);}
+.bs_beach .bs_hcarousel #bs_hviewport .bs_ci{width:70px;height:70px;overflow:hidden;border:solid 5px #ddd;border:solid 5px rgba(255,255,255,0.6);border-radius:5px;}
+.bs_beach #bs_hviewport .carousel img{width:250px;}
+.bs_beach .bs_circle{width:23px;height:23px;margin:0 7px;background-image:url(../../img/skin/c_beach.png);}
+.bs_beach .bs_caption{position:absolute;text-shadow:#333 2px 2px;font-family:lucida;font-size:50px;filter: alpha(opacity=40);left:40px;top:40px;width:40%; color:#fff !important;}
+.bs_beach .bs_caption a{ color:#fff !important; line-height:normal !important;}
+.bs_container .bs_slide .bs_caption{font-size:50px !important;}
+.bs_beach .bs_caption div{position:relative;display:inline-block;width:100%;}
+.bs_beach .bs_title{margin:0 auto;}
+.bs_beach .bs_des{font-size:11px;opacity:.75;filter: alpha(opacity=70);-moz-opacity:.75;-khtml-opacity:.75;display:none !important;}
+/* Default Skin Lightbox*/
+.bs_beach #bs_lbox{position:absolute;right:20px;top:20px;width:40px;height:40px;z-index:60;cursor:pointer;background-image:url(../../img/skin/beach_switch.png);background-position:0% 0;}
+.bs_beach #bs_lbox:hover{background-position:100% 0;margin-right:0px;}
+.bs_beach #bs_sublightbox{position:absolute; background-color:#000; border: 0px; box-shadow: 4px 4px 4px #000000; z-index:200; left:50%; top:50%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box;    /* Firefox, other Gecko */box-sizing: border-box;         /* Opera/IE 8+ */}
+.bs_beach .bs_lcontrol{background:url(../../img/skin/l_default.png);position:absolute;width:24px;height:37px;z-index:50;cursor:pointer;}
+.bs_beach #bs_lightbox_control_prev{left:10px;top:50%;margin-top:-18px;}
+.bs_beach #bs_lightbox_control_next{right:10px;top:50%;margin-top:-18px;background-position:100% 0%;}
+.bs_beach #bs_lightbox_control_close{background:url(../../img/skin/default_close.png);position:absolute;width:17px;height:17px;z-index:50;right:0;margin:10px;cursor:pointer;}
+.bs_beach #bs_thumb_container .bs_thumb{float:left;width:54px;height:59px;background:url(../../img/skin/t_default.png);background-position:100% 0;overflow:hidden;}
+.bs_beach #bs_thumb_container .bs_thumb:hover,.bs_beach #bs_thumb_container .bs_thumb.active{background-position:0;}
+.bs_beach #bs_thumb_container .bs_thumb .bs_subthumb{position:absolute;overflow:hidden;margin:12px 7px;width:40px;height:40px;}
+.bs_beach #bs_thumb_container .bs_thumb.active .bs_subthumb,.bs_beach #bs_thumb_container .bs_thumb:hover .bs_subthumb{margin:9px 7px;}
+.bs_beach #bs_thumb_container .bs_thumb img{width:100px;}
+.bs_ios7 #lp_ct.progressbar{top:auto;bottom:0;}
+@font-face { font-family: lucida; src: url('../font/Arimo-Regular.ttf'); } 

@@ -1,0 +1,47 @@
+.bs_starworld{font-family:lucida;}
+.bs_starworld #bs_shadow{position:absolute;z-index:0;bottom:-20px;width:100%;height:53px;display:none;}
+.bs_starworld #bs_shadow img{width:100%;height:100%;}
+.bs_starworld #bs_numboard{position:absolute;bottom:0;margin-bottom:4px;right:0px;font-family:lucida;width:60px;height:30px;z-index:80;font-size:22px;color:#c1c4c7;}
+.bs_starworld .bs_bullet_control{ margin-bottom:-30px;}
+.bs_starworld .bs_bt_preview { top:45px;}
+.bs_starworld .bs_bullet_control #bs_bullet_viewport{ margin-top:20px;}
+.bs_starworld .bs_bullet_control #bs_bullet_inner_viewport{ padding:5px;float:left;}
+.bs_starworld #left_btn{ width:14px;height:21px;background-image:url(../../img/skin/starworld.png);background-position:0% 0%;right:100px;}
+.bs_starworld #right_btn{ width:14px;height:21px;background-image:url(../../img/skin/starworld.png);background-position:100% 0%;right:75px;}
+.bs_starworld .bs_vcarousel{width:60px;height:100%;z-index:50;left:0;margin:0px 5px;}
+.bs_starworld .bs_vcarousel.bs_bullet{ margin-top:20px !important;}
+.bs_starworld .bs_vcarousel #bs_vviewport .carousel{width:60px;height:60px;margin:0;cursor:pointer;}
+.bs_starworld .bs_vcarousel #bs_vviewport .carousel.active{background-position:0% 0%;}
+.bs_starworld .bs_vcarousel #bs_vviewport .carousel:hover{background-position:0% 0%;}
+.bs_starworld .bs_vcarousel #bs_vviewport .carousel.active .bs_ci{width:50px;height:50px;margin:2px;border-radius:50px;border:solid 2px;border-color:#fff;border-color:rgba(255,255,255,0.7);}
+.bs_starworld .bs_vcarousel #bs_vviewport .carousel:hover .bs_ci{width:50px;height:50px;margin:2px;border-radius:50px;border:solid 2px;border-color:#fff;border-color:rgba(255,255,255,0.7);}
+.bs_starworld .bs_vcarousel #bs_vviewport .bs_ci{width:40px;height:40px;margin:7px;overflow:hidden;border-radius:40px;border:solid 2px;border-color:#fff;border-color:rgba(255,255,255,0.7);}
+.bs_starworld .bs_vcarousel #bs_vviewport .bs_ci img{width:100%;height:100%;border-radius:50px;}
+.bs_starworld .bs_circle{width:20px;height:19px;background-image:url(../../img/skin/c_starworld.png);margin:0 3px; }
+.bs_starworld .bs_nav{bottom:10px;display:block !important;}
+.bs_starworld .bs_a_play{position:absolute;bottom:10px;margin:0px 24px;width:22px;height:21px;background-image:url(../../img/skin/p_starworld.png);background-position:100% 0%;z-index:80;right:101px;}
+.bs_starworld .bs_a_pause{background-position:0% 0%;margin-right:22px;}
+.bs_starworld .bs_load{width:48px;height:48px;margin-left:-24px;margin-top:-24px;}
+.bs_starworld .bs_caption{position:absolute; font-family:lucida;font-size:24px;filter: alpha(opacity=40);background-color:#000;background-color:rgba(0,0,0,0.6);right:0;bottom: 50px; color: #fff !important; }
+.bs_starworld .bs_caption a{ color:#fff !important; line-height:normal !important;}
+.bs_starworld .bs_caption div{margin:10px 20px;}
+.bs_starworld .bs_des{font-size:11px;opacity:.75;filter: alpha(opacity=70);-moz-opacity:.75;-khtml-opacity:.75;display:none;}
+/* starworld Skin Lightbox*/
+.bs_starworld #bs_sublightbox{position:absolute; background-color:#000; border: 0px; box-shadow: 4px 4px 4px #000000; z-index:200; left:50%; top:50%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box;    /* Firefox, other Gecko */box-sizing: border-box;         /* Opera/IE 8+ */}
+.bs_starworld .bs_lcontrol{background:url(../../img/skin/starworld.png);position:absolute;width:14px;height:21px;z-index:50;cursor:pointer;}
+.bs_starworld #bs_lightbox_control_prev{right:40px;bottom:10px;}
+.bs_starworld #bs_lightbox_control_next{right:10px;bottom:10px;background-position:100% 0%;}
+.bs_starworld #bs_lightbox_control_close{background:url(../../img/skin/starworld_close.png);position:absolute;width:19px;height:20px;z-index:50;right:0;margin:10px;cursor:pointer;}
+.bs_starworld #bs_thumb_container .bs_thumb{float:left;width:54px;height:59px;background:url(../../img/skin/t_default.png);background-position:100% 0;overflow:hidden;}
+.bs_starworld #bs_thumb_container .bs_thumb:hover,.bs_starworld #bs_thumb_container .bs_thumb.active{background-position:0;}
+.bs_starworld #bs_thumb_container .bs_thumb .bs_subthumb{position:absolute;overflow:hidden;margin:12px 7px;width:40px;height:40px;}
+.bs_starworld #bs_thumb_container .bs_thumb.active .bs_subthumb,.bs_starworld #bs_thumb_container .bs_thumb:hover .bs_subthumb{margin:9px 7px;}
+.bs_starworld #bs_thumb_container .bs_thumb img{width:120px;}
+.bs_starworld #bs_lbox{position:absolute;right:15px;top:15px;width:27px;height:27px;z-index:60;cursor:pointer;background-image:url(../../img/skin/starworld_switch.png);background-position:0% 0;}
+.bs_starworld #bs_lbox:hover{background-position:100% 0;margin-right:0px;}
+.bs_starworld .bs_play,.bs_container .bs_pause{width:26px !important;height:26px !important;cursor:pointer;left:auto;right:0px;top:40px;position:absolute;margin:15px;opacity:1;-moz-opacity:1;-khtml-opacity:1;filter: alpha(opacity=1);}
+.bs_starworld #bs_lightbox .bs_play{margin-right:10px;}
+.bs_starworld #lp_ct.progressbar{top:auto;bottom:0;}
+@font-face { font-family: lucida; src: url('../font/Asap-Bold.ttf'); } 
+
+

@@ -1,0 +1,22 @@
+/* Main Container */
+.bs_yourskinname{ border:solid 5px #fff;}
+/* Bullet Container */
+.bs_yourskinname .bs_bullet_control{ margin-bottom:-30px;}
+/* Thumbnail Preview Container */
+.bs_yourskinname .bs_bt_preview { top:-45px;}
+/* Bullet Viewport and Subviewport*/
+.bs_yourskinname .bs_bullet_control #bs_bullet_viewport{ margin-top:-8px;}
+.bs_yourskinname .bs_bullet_control #bs_bullet_inner_viewport{ padding:10px; background-color:#f5f5f5; border-radius:5px; display:inline-block;}
+/* Left and Right button */
+.bs_yourskinname #left_btn{ width:36px;height:36px;background-image:url(../../img/skin/default.png);left:10px;}
+.bs_yourskinname #right_btn{ width:36px;height:36px;background-image:url(../../img/skin/default.png);right:10px;}
+.bs_yourskinname .bs_nav{top:50%;margin-top:-18px;}
+/* Carousel Container */
+.bs_yourskinname .bs_hcarousel.bs_bullet{ margin-top:20px !important;}
+.bs_yourskinname .bs_hcarousel #bs_hviewport .carousel{border:solid 2px #fff;}
+/* Bullets */
+.bs_yourskinname .bs_circle{width:11px;height:11px;background-image:url(../../img/skin/c_default.png); }
+/* Play/Pause Control in Bullet Container */
+.bs_yourskinname .bs_a_play{width:11px;height:11px;background-image:url(../../img/skin/p_default.png); }
+
+

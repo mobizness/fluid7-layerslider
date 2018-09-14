@@ -1,0 +1,11 @@
+.bs_square{ border:none;}
+.bs_square .bs_bt_preview { top:-45px;}
+.bs_square .bs_bullet_control{ right:0px !important;bottom:0;}
+.bs_square .bs_bullet_control #bs_bullet_viewport{ margin-top:6px;}
+.bs_square .bs_bullet_control #bs_bullet_inner_viewport{ display:inline-block;}
+.bs_square #left_btn{ width:43px;	height:43px;background-image:url(../../img/skin/square.png);right:43px;bottom:0;}
+.bs_square #right_btn{ width:43px;height:43px;background-image:url(../../img/skin/square.png);right:0px;bottom:0px;}
+.bs_square .bs_hcarousel{ margin-top:0px; }
+.bs_square .bs_hcarousel #bs_hviewport .carousel{border:solid 2px #fff;}
+.bs_square .bs_circle{width:17px;height:17px;background-image:url(../../img/skin/c_square.png);}
+.bs_square .bs_a_play{width:17px;height:17px;background-image:url(../../img/skin/p_square.png);}

@@ -1,0 +1,44 @@
+.bs_science{font-family:lucida;border-bottom:solid 37px #f12938;}
+.bs_science #bs_shadow{position:absolute;z-index:0;bottom:-87px;width:100%;height:53px;}
+.bs_science #bs_shadow img{width:100%;height:100%;}
+.bs_science .bs_bullet_control{ margin-bottom:-30px;}
+.bs_science .bs_bt_preview { top:75px;}
+.bs_science .bs_bullet_control #bs_bullet_viewport{ margin-top:45px;}
+.bs_science .bs_bullet_control #bs_bullet_inner_viewport{ padding:10px;display:inline-block;}
+.bs_science .bs_nav{bottom:-27px;display:block !important;}
+.bs_science #left_btn{ width:50px;height:17px;background-image:url(../../img/skin/science.png);background-position:0% 0%;left:10px;}
+.bs_science #right_btn{ width:50px;height:17px;background-image:url(../../img/skin/science.png);background-position:100% 0%;right:10px;}
+.bs_science .bs_hcarousel.bs_bullet{ margin-top:20px !important;}
+.bs_science .bs_hcarousel #bs_hviewport .carousel{width:54px;height:54px;margin:0;background:url(../../img/skin/t_science.png);background-position:100% 0%;}
+.bs_science .bs_hcarousel #bs_hviewport .carousel.active{background-position:0% 0%;}
+.bs_science .bs_hcarousel #bs_hviewport .carousel:hover{background-position:0% 0%;}
+.bs_science .bs_hcarousel #bs_hviewport .carousel.active .bs_ci{margin:4px 5px;}
+.bs_science .bs_hcarousel #bs_hviewport .carousel:hover .bs_ci{margin:4px 5px;}
+.bs_science .bs_hcarousel #bs_hviewport .bs_ci{width:40px;height:40px;margin:7px 7px;overflow:hidden;}
+.bs_science .bs_circle{width:18px;height:17px;background-image:url(../../img/skin/c_science.png); }
+.bs_science .bs_a_play{position:absolute;left:0px;bottom:0px;margin:10px 20px;width:18px;height:30px;background-image:url(../../img/skin/p_science.png);background-position:100% 0%;z-index:60;}
+.bs_science .bs_a_pause{background-position:0% 0%;margin-left:21px;}
+.bs_science .bs_load{width:48px;height:48px;margin-left:-24px;margin-top:-24px;}
+.bs_science .bs_caption{position:absolute; font-family:lucida;font-size:24px;filter: alpha(opacity=40);background-color:#000;background-color:rgba(0,0,0,0.6);right:0;	top: 20px; color: #fff !important; line-height:normal !important;}
+.bs_science .bs_caption a{ color:#fff !important; line-height:normal !important;}
+.bs_science .bs_caption div{margin:10px 20px;}
+.bs_science .bs_des{font-size:11px;opacity:.75;filter: alpha(opacity=70);-moz-opacity:.75;-khtml-opacity:.75;display:none;}
+/* science Skin Lightbox*/
+.bs_science #bs_sublightbox{position:absolute; background-color:#000; border: 0px; box-shadow: 4px 4px 4px #000000; z-index:200; left:50%; top:50%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box;    /* Firefox, other Gecko */box-sizing: border-box;         /* Opera/IE 8+ */}
+.bs_science .bs_lcontrol{background:url(../../img/skin/l_default.png);position:absolute;width:24px;height:37px;z-index:50;cursor:pointer;}
+.bs_science #bs_lightbox_control_prev{left:10px;top:50%;margin-top:-18px;}
+.bs_science #bs_lightbox_control_next{right:10px;top:50%;margin-top:-18px;background-position:100% 0%;}
+.bs_science #bs_lightbox_control_close{background:url(../../img/skin/default_close.png);position:absolute;width:17px;height:17px;z-index:50;right:0;margin:10px;cursor:pointer;}
+.bs_science #bs_thumb_container .bs_thumb{float:left;width:54px;height:59px;background:url(../../img/skin/t_default.png);background-position:100% 0;overflow:hidden;}
+.bs_science #bs_thumb_container .bs_thumb:hover,.bs_science #bs_thumb_container .bs_thumb.active{background-position:0;}
+.bs_science #bs_thumb_container .bs_thumb .bs_subthumb{position:absolute;overflow:hidden;margin:12px 7px;width:40px;height:40px;}
+.bs_science #bs_thumb_container .bs_thumb.active .bs_subthumb,.bs_science #bs_thumb_container .bs_thumb:hover .bs_subthumb{margin:9px 7px;}
+.bs_science #bs_thumb_container .bs_thumb img{width:100px;}
+.bs_science #bs_lbox{position:absolute;left:10px;top:10px;width:32px;height:32px;z-index:50;cursor:pointer;background-image:url(../../img/switch.png);background-position:100% 0;}
+.bs_science #bs_lbox:hover{background-position:0% 0;margin-left:1px;}
+.bs_science #lp_ct.progressbar{background-color:#f12938;opacity:1;-moz-opacity:1;-khtml-opacity:1;filter: alpha(opacity=100);}
+.bs_science #lprogress{opacity:0.9;-moz-opacity:0.9;-khtml-opacity:0.9;filter: alpha(opacity=90);}
+.bs_science .bs_hcarousel{margin-top:-55px;height:54px;z-index:50;}
+@font-face { font-family: lucida; src: url('../font/BEBAS.ttf'); } 
+
+

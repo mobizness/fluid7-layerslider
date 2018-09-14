@@ -1,0 +1,12 @@
+.bs_sharp{ border:none;}
+.bs_sharp .bs_bt_preview { top:-45px;}
+.bs_sharp .bs_bullet_control{ bottom:10px;}
+.bs_sharp .bs_bullet_control #bs_bullet_viewport{ margin-top:12px;}
+.bs_sharp .bs_bullet_control #bs_bullet_inner_viewport{ display:inline-block;}
+.bs_sharp #left_btn{ width:28px; height:54px;	background-image:url(../../img/skin/sharp.png);left:10px;}
+.bs_sharp #right_btn{ width:28px; height:54px; background-image:url(../../img/skin/sharp.png);right:10px;}
+.bs_sharp .bs_hcarousel{ margin-top:0px;}
+.bs_sharp .bs_hcarousel #bs_hviewport .carousel{border:solid 2px #fff;}
+.bs_sharp .bs_circle{width:17px;height:17px;background-image:url(../../img/skin/c_sharp.png);}
+.bs_sharp .bs_nav{top:50%;margin-top:-27px;}
+.bs_sharp .bs_a_play{width:17px;height:17px;background-image:url(../../img/skin/p_sharp.png);}

@@ -1,0 +1,46 @@
+.bs_nature{font-family:lucida;}
+.bs_nature #bs_shadow{position:absolute;z-index:0;bottom:0px;width:100%;height:53px;margin-bottom:-46px;}
+.bs_nature #bs_shadow img{width:100%;height:100%;}
+.bs_nature .nature_play{display:none !Important;}
+.bs_nature .bs_bt_preview { top:35px;}
+.bs_nature .bs_preview_img{width:150px;}
+.bs_nature .bs_bullet_control #bs_bullet_viewport{ margin-top:-10px;}
+.bs_nature .bs_bullet_control #bs_bullet_inner_viewport{ padding:10px;display:inline-block;float:left;}
+.bs_nature #left_btn{ width:32px;height:44px;background-image:url(../../img/skin/nature.png);background-position:0% 0%;left:0px;}
+.bs_nature #right_btn{ width:32px;height:44px;background-image:url(../../img/skin/nature.png);background-position:100% 0%;right:0px;}
+.bs_nature .bs_hcarousel{margin-top:-30px;top:0px;margin-left:-30px;height:74px;z-index:50;}
+.bs_nature .bs_hcarousel.bs_bullet{ margin-top:20px !important;}
+.bs_nature .bs_hcarousel #bs_hviewport .carousel{width:66px;height:66px;margin:0 4px;border-radius:2px;background-position:100% 0%;border:solid 3px;border-color:#ddd;border-color:rgba(255,255,255,0.7);}
+.bs_nature .bs_hcarousel #bs_hviewport .carousel.active{background-position:0% 0%;}
+.bs_nature .bs_hcarousel #bs_hviewport .carousel:hover{background-position:0% 0%;}
+.bs_nature .bs_hcarousel #bs_hviewport .carousel.active{border-color:rgb(192,222,68);}
+.bs_nature .bs_hcarousel #bs_hviewport .carousel:hover{}
+.bs_nature .bs_hcarousel #bs_hviewport .bs_ci{width:60px;height:60px;margin:3px;overflow:hidden;}
+.bs_nature .bs_hcarousel #bs_hviewport .bs_ci img{width:180px;}
+.bs_nature .bs_circle{width:28px;height:27px;background-image:url(../../img/skin/c_nature.png); }
+.bs_nature .bs_nav{top:50%;margin:-22px -50px;display:block !important;}
+.bs_nature .bs_a_play{width:20px;height:27px;margin-top:-10px;background-image:url(../../img/skin/p_nature.png);background-position:100% 0%;z-index:80;margin-left:7px;}
+.bs_nature .bs_a_pause{background-position:0% 0%;}
+.bs_nature .bs_load{width:48px;height:48px;margin-left:-24px;margin-top:-24px;}
+.bs_nature .bs_caption{position:absolute; font-family:lucida;font-size:20px;filter: alpha(opacity=40);background-color:#000;background-color:rgba(0,0,0,0.6);right:10px;	bottom: 50px; color: #fff !important; }
+.bs_nature .bs_caption a{ color:#fff !important; line-height:normal !important;}
+.bs_nature .bs_caption div{margin:5px 10px;}
+.bs_nature .bs_des{font-size:11px;opacity:.75;filter: alpha(opacity=70);-moz-opacity:.75;-khtml-opacity:.75;display:none;}
+/* nature Skin Lightbox*/
+.bs_nature #bs_sublightbox{position:absolute; background-color:#000; border: 0px; box-shadow: 4px 4px 4px #000000; z-index:200; left:50%; top:50%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box;    /* Firefox, other Gecko */box-sizing: border-box;         /* Opera/IE 8+ */}
+.bs_nature .bs_lcontrol{background:url(../../img/skin/nature.png);position:absolute;width:32px;height:44px;z-index:50;cursor:pointer;}
+.bs_nature #bs_lightbox_control_prev{left:-60px;top:50%;margin-top:-18px;}
+.bs_nature #bs_lightbox_control_next{right:-60px;top:50%;margin-top:-18px;background-position:100% 0%;}
+.bs_nature #bs_lightbox_control_close{background:url(../../img/skin/nature_close.png);position:absolute;width:33px;height:32px;z-index:50;right:0;top:-50px;margin:10px;cursor:pointer;}
+.bs_nature #bs_thumb_container .bs_thumb{float:left;width:54px;height:59px;background:url(../../img/skin/t_default.png);background-position:100% 0;overflow:hidden;}
+.bs_nature #bs_thumb_container .bs_thumb:hover,.bs_nature #bs_thumb_container .bs_thumb.active{background-position:0;}
+.bs_nature #bs_thumb_container .bs_thumb .bs_subthumb{position:absolute;overflow:hidden;margin:12px 7px;width:40px;height:40px;}
+.bs_nature #bs_thumb_container .bs_thumb.active .bs_subthumb,.bs_nature #bs_thumb_container .bs_thumb:hover .bs_subthumb{margin:9px 7px;}
+.bs_nature #bs_thumb_container .bs_thumb img{width:150px;}
+.bs_nature #bs_lbox{position:absolute;left:50%;top:50%;width:41px;height:41px;z-index:60;cursor:pointer;background-image:url(../../img/skin/nature_switch.png);background-position:0% 0;margin-left:-20px;margin-top:-20px;}
+.bs_nature #bs_lbox:hover{background-position:100% 0;}
+.bs_nature .bs_play,.bs_container .bs_pause{width:32px !important;height:32px !important;cursor:pointer;left:auto;right:0;top:0px;position:absolute;margin:10px;}
+.bs_nature #lp_ct.progressbar{top:auto;bottom:0;}
+@font-face { font-family: lucida; src: url('../font/oleo.ttf'); } 
+
+
