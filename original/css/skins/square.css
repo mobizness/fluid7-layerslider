@@ -1,0 +1,11 @@
+.seven_square{ border:none;}
+.seven_square .seven_bt_preview { top:-45px;}
+.seven_square .seven_bullet_control{ right:0px !important;bottom:0;}
+.seven_square .seven_bullet_control #seven_bullet_viewport{ margin-top:6px;}
+.seven_square .seven_bullet_control #seven_bullet_inner_viewport{ display:inline-block;}
+.seven_square #left_btn{ width:43px;	height:43px;background-image:url(../../img/skin/square.png);right:43px;bottom:0;}
+.seven_square #right_btn{ width:43px;height:43px;background-image:url(../../img/skin/square.png);right:0px;bottom:0px;}
+.seven_square .seven_hcarousel{ margin-top:0px; }
+.seven_square .seven_hcarousel #seven_hviewport .carousel{border:solid 2px #fff;}
+.seven_square .seven_circle{width:17px;height:17px;background-image:url(../../img/skin/c_square.png);}
+.seven_square .seven_a_play{width:17px;height:17px;background-image:url(../../img/skin/p_square.png);}

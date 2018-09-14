@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+html, body {width:100%; height:100%; font-family:Arial; }
+html{color:#666;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6 {line-height:1.5;}
+p{ font-size:16px;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;} 
+th,td{margin:0px;padding:5px;}
+body, html { width:100%; height:100%; margin:0; padding:0;}
+body{ background-image:url(../img/bg.png); padding:0; margin:0; width:100%;}
+#header{ max-width:1000px; margin:0 auto; color:#333333; margin-top:20px; margin-bottom:40px;}
+#header h4{ text-align:center;}
+#header_menu { padding:0; margin:0; margin-top:20px;}
+#header_menu ul{ width:100%; list-style:none;}
+#header_menu li{list-style:none;}
+#header_menu li{padding:0px !important; margin-right:-5px; display:inline-block; cursor:pointer;}
+#header_menu li a{	text-decoration:none; background-color:#333333; color:#fff; padding:10px; margin:0px !important; font-size:14px; display:block;}
+#header_menu li:hover a{ background-color:#272; color:#fff;}
+#header_menu li.active a{ font-weight:bold; background:#272;}
+#header_menu li.firstitem a{ border-radius:5px 0px 0px 5px; }
+#header_menu li.lastitem a{ border-radius:0px 5px 5px 0px;}
+#featurepanel{ width:100%; max-width:774px; margin:0 auto; margin-top:150px;  border-box; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box;    /* Firefox, other Gecko */box-sizing: border-box; margin-bottom:20px; color:#000; padding:10px;}
+#featurepanel h3{ font-weight:bold; font-size:30px; font-style:italic; padding-bottom:10px;}
+#featurepanel ul{ list-style:inside !important;}
+#featurepanel li{ list-style:inside !important;}
+.left_help{	position:fixed;	width:30px; background-image:url(../img/sco.png); left:0; cursor:pointer; z-index:50; display:none;}
+.left_help.right{ background-position:100% 0;}
+.leftpane{ position:fixed; left:-230px; top:200px; width:230px; background-color:#222; color:#fff; z-index:1000;}
+.leftpane .mainform{ width:200px; height:100%; margin:15px; }
+.leftpane .mainform div{margin-bottom:5px;}
+.leftpane .mainform input,.leftpane .mainform select{ width:100%; }
+.leftpane .mainform .interval{ width:40px; margin-left:5px;	margin-right:3px;}
+.leftpane .mainform .p_sel{ width:70px; margin-left:5px; }
+.leftpane .mainform .check{ width:15px;}
+.leftpane .mainform .submit{ width:50%;	margin-left:25%;margin-top:15px;}
+#footer { width:100%; background-color:#222; color:#FFFFFF; }
+.clear { clear:both;}
+#footer .copyright { float:left; font-size:14px;}
+#footer_inner { max-width:1000px; margin:0 auto; padding:20px;}
+#footer .copyright a{ color:#FFFFFF;}
+#footer .footer_nav { float:right;}
+#footer .footer_nav a{ color:#FFFFFF; font-size:14px; text-decoration:none;}
+span.sep { padding:0px 5px; font-size:14px; color:#FFFFFF;}

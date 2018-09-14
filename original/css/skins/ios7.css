@@ -1,0 +1,46 @@
+.seven_ios7{font-family:lucida !important;}
+.seven_ios7 a{font-family:lucida !important;}
+.seven_ios7 #seven_shadow{position:absolute;z-index:0;bottom:-20px;width:100%;height:53px;display:none;}
+.seven_ios7 #seven_shadow img{width:100%;height:100%;}
+.seven_ios7 .seven_bullet_control{ margin-bottom:-30px;}
+.seven_ios7 .seven_bt_preview { top:45px;}
+.seven_ios7 .seven_bullet_control #seven_bullet_viewport{ margin-top:20px;}
+.seven_ios7 .seven_bullet_control #seven_bullet_inner_viewport{ padding:10px;display:inline-block;}
+.seven_ios7 #left_btn{ width:39px;height:39px;background-image:url(../../img/skin/ios7.png);background-position:0% 0%;left:10px;}
+.seven_ios7 #right_btn{ width:39px;height:39px;background-image:url(../../img/skin/ios7.png);background-position:100% 0%;right:10px;}
+.seven_ios7 .seven_hcarousel{margin-top:-60px;bottom:0px;height:56px;z-index:50;}
+.seven_ios7 .seven_hcarousel.seven_bullet{ margin-top:20px !important;}
+.seven_ios7 .seven_hcarousel #seven_hviewport .carousel{width:60px;height:60px;margin:0;background-position:100% 0%;}
+.seven_ios7 .seven_hcarousel #seven_hviewport .carousel.active{background-position:0% 0%;}
+.seven_ios7 .seven_hcarousel #seven_hviewport .carousel:hover{background-position:0% 0%;}
+.seven_ios7 .seven_hcarousel #seven_hviewport .carousel.active .seven_ci{width:50px;height:50px;margin:2px;border-radius:50px;border:solid 2px;border-color:#fff;border-color:rgba(255,255,255,0.7);}
+.seven_ios7 .seven_hcarousel #seven_hviewport .carousel:hover .seven_ci{width:50px;height:50px;margin:2px;border-radius:50px;border:solid 2px;border-color:#fff;border-color:rgba(255,255,255,0.7);}
+.seven_ios7 .seven_hcarousel #seven_hviewport .seven_ci{width:40px;height:40px;margin:7px;overflow:hidden;border-radius:40px;border:solid 2px;border-color:#fff;border-color:rgba(255,255,255,0.7);}
+.seven_ios7 .seven_hcarousel #seven_hviewport .seven_ci img{width:100%;height:100%;border-radius:50px;}
+.seven_ios7 .seven_circle{width:9px;height:9px;background-image:url(../../img/skin/c_ios7.png); }
+.seven_ios7 .seven_nav{top:50%;margin-top:-18px;}
+.seven_ios7 .seven_a_play{position:absolute;right:0px;bottom:0px;margin:10px 20px;width:18px;height:30px;background-image:url(../../img/skin/p_ios7.png);background-position:100% 0%;z-index:80;}
+.seven_ios7 .seven_a_pause{background-position:0% 0%;margin-left:21px;}
+.seven_ios7 .seven_load{width:48px;height:48px;margin-left:-24px;margin-top:-24px;}
+.seven_ios7 .seven_caption{position:absolute; font-family:lucida;font-size:24px;filter: alpha(opacity=40);background-color:#000;background-color:rgba(0,0,0,0.6);left:0;	top: 20px; color: #fff !important; text-transform:uppercase;}
+.seven_ios7 .seven_caption a{ color:#fff !important; line-height:normal !important;}
+.seven_ios7 .seven_caption div{margin:10px 20px;}
+.seven_ios7 .seven_des{font-size:11px;opacity:.75;filter: alpha(opacity=70);-moz-opacity:.75;-khtml-opacity:.75;display:none; color:#fff !important;}
+/* ios7 Skin Lightbox*/
+.seven_ios7 #seven_sublightbox{position:absolute; background-color:#000; border: 0px; box-shadow: 4px 4px 4px #000000; z-index:200; left:50%; top:50%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box;    /* Firefox, other Gecko */box-sizing: border-box;         /* Opera/IE 8+ */}
+.seven_ios7 .seven_lcontrol{background:url(../../img/skin/ios7.png);position:absolute;width:39px;height:39px;z-index:50;cursor:pointer;}
+.seven_ios7 #seven_lightbox_control_prev{left:-60px;top:50%;margin-top:-18px;}
+.seven_ios7 #seven_lightbox_control_next{right:-60px;top:50%;margin-top:-18px;background-position:100% 0%;}
+.seven_ios7 #seven_lightbox_control_close{background:url(../../img/skin/ios7_close.png);position:absolute;width:38px;height:38px;z-index:50;left:0;margin:10px;cursor:pointer;}
+.seven_ios7 #seven_thumb_container .seven_thumb{float:left;width:54px;height:59px;background:url(../../img/skin/t_default.png);background-position:100% 0;overflow:hidden;}
+.seven_ios7 #seven_thumb_container .seven_thumb:hover,.seven_ios7 #seven_thumb_container .seven_thumb.active{background-position:0;}
+.seven_ios7 #seven_thumb_container .seven_thumb .seven_subthumb{position:absolute;overflow:hidden;margin:12px 7px;width:40px;height:40px;}
+.seven_ios7 #seven_thumb_container .seven_thumb.active .seven_subthumb,.seven_ios7 #seven_thumb_container .seven_thumb:hover .seven_subthumb{margin:9px 7px;}
+.seven_ios7 #seven_thumb_container .seven_thumb img{width:100px;}
+.seven_ios7 #seven_lbox{position:absolute;left:50%;top:50%;width:81px;height:81px;z-index:60;cursor:pointer;background-image:url(../../img/skin/ios7_switch.png);background-position:100% 0;margin-left:-40px;margin-top:-40px;}
+.seven_ios7 #seven_lbox:hover{background-position:0% 0;margin-left:-41px;}
+.seven_ios7 .seven_play,.seven_container .seven_pause{width:48px !important;height:48px !important;cursor:pointer;left:auto;right:0px;top:0px;position:absolute;margin:10px;}
+.seven_ios7 #lp_ct.progressbar{top:auto;bottom:0;}
+@font-face { font-family: lucida; src: url('../font/BEBAS.ttf'); } 
+
+

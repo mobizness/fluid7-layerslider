@@ -1,0 +1,11 @@
+.seven_fullwidth{ border:none;}
+.seven_fullwidth .seven_bt_preview { top:-45px;}
+.seven_fullwidth .seven_bullet_control{ /*left:278px;right:0px !important;bottom:0;*/}
+.seven_fullwidth .seven_bullet_control #seven_bullet_viewport{ margin-top:6px;}
+.seven_fullwidth .seven_bullet_control #seven_bullet_inner_viewport{ display:inline-block;}
+.seven_fullwidth #left_btn{ width:80px;	height:80px;background-image:url(../../img/skin/fullwidth.png); top:50%; left:0; margin-top:-40px;}
+.seven_fullwidth #right_btn{ width:80px;height:80px;background-image:url(../../img/skin/fullwidth.png); top:50%; right:0; margin-top:-40px;}
+.seven_fullwidth .seven_hcarousel{ margin-top:0px; }
+.seven_fullwidth .seven_hcarousel #seven_hviewport .carousel{border:solid 2px #fff;}
+.seven_fullwidth .seven_circle{width:17px;height:17px;background-image:url(../../img/skin/c_fullwidth.png);}
+.seven_fullwidth .seven_a_play{width:17px;height:17px;background-image:url(../../img/skin/p_fullwidth.png);}

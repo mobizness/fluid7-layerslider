@@ -1,0 +1,22 @@
+/* Main Container */
+.seven_yourskinname{ border:solid 5px #fff;}
+/* Bullet Container */
+.seven_yourskinname .seven_bullet_control{ margin-bottom:-30px;}
+/* Thumbnail Preview Container */
+.seven_yourskinname .seven_bt_preview { top:-45px;}
+/* Bullet Viewport and Subviewport*/
+.seven_yourskinname .seven_bullet_control #seven_bullet_viewport{ margin-top:-8px;}
+.seven_yourskinname .seven_bullet_control #seven_bullet_inner_viewport{ padding:10px; background-color:#f5f5f5; border-radius:5px; display:inline-block;}
+/* Left and Right button */
+.seven_yourskinname #left_btn{ width:36px;height:36px;background-image:url(../../img/skin/default.png);left:10px;}
+.seven_yourskinname #right_btn{ width:36px;height:36px;background-image:url(../../img/skin/default.png);right:10px;}
+.seven_yourskinname .seven_nav{top:50%;margin-top:-18px;}
+/* Carousel Container */
+.seven_yourskinname .seven_hcarousel.seven_bullet{ margin-top:20px !important;}
+.seven_yourskinname .seven_hcarousel #seven_hviewport .carousel{border:solid 2px #fff;}
+/* Bullets */
+.seven_yourskinname .seven_circle{width:11px;height:11px;background-image:url(../../img/skin/c_default.png); }
+/* Play/Pause Control in Bullet Container */
+.seven_yourskinname .seven_a_play{width:11px;height:11px;background-image:url(../../img/skin/p_default.png); }
+
+
