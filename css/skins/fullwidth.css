@@ -1,0 +1,11 @@
+.bs_fullwidth{ border:none;}
+.bs_fullwidth .bs_bt_preview { top:-45px;}
+.bs_fullwidth .bs_bullet_control{ /*left:278px;right:0px !important;bottom:0;*/}
+.bs_fullwidth .bs_bullet_control #bs_bullet_viewport{ margin-top:6px;}
+.bs_fullwidth .bs_bullet_control #bs_bullet_inner_viewport{ display:inline-block;}
+.bs_fullwidth #left_btn{ width:80px;	height:80px;background-image:url(../../img/skin/fullwidth.png); top:50%; left:0; margin-top:-40px;}
+.bs_fullwidth #right_btn{ width:80px;height:80px;background-image:url(../../img/skin/fullwidth.png); top:50%; right:0; margin-top:-40px;}
+.bs_fullwidth .bs_hcarousel{ margin-top:0px; }
+.bs_fullwidth .bs_hcarousel #bs_hviewport .carousel{border:solid 2px #fff;}
+.bs_fullwidth .bs_circle{width:17px;height:17px;background-image:url(../../img/skin/c_fullwidth.png);}
+.bs_fullwidth .bs_a_play{width:17px;height:17px;background-image:url(../../img/skin/p_fullwidth.png);}

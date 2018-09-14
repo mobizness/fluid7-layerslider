@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/jquery.kenburn.js"></script>
+<script src="js/jquery.reference.js"></script>
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/bs_slider.css" rel="stylesheet" />
+<link href="css/skins/sapphire.css" rel="stylesheet" />
+<script type="text/javascript" language="javascript">
+	$(document).ready(function(){
+		var tb=$(".bs_container").bs_kenburn({
+			width:774,
+			height:436,
+			autoplay:false,
+			interval:5,
+			fullwidth:false,
+			responsive:true,
+			progressbar:true,
+			swipe:true,
+			keyboard:false,
+			scrollmode:false,
+			animation:4,
+			navtype:1,
+			repeat_mode:true,
+			skin:'sapphire',
+			lightbox:true,
+			pause_on_hover:true	,
+		});
+	});
+</script>
+<body style="background:#aaa;">
+<div class="bs_container">
+    <div id="bs_viewport" class="bs_viewport">
+        <div class="bs_slider">
+            <div class="bs_slide" data-caption="The best friends"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" image-src="img/001.jpg"></div>
+            <div class="bs_slide" data-caption="I want to be pilot"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses"  image-src="img/002.jpg" video-src="http://"></div> 
+            <div class="bs_slide" data-caption="Welcome to the party"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" data-link="http://bs_.samcholi.com/plugins/bs_slider" image-src="img/003.jpg"></div> 
+        </div>
+    </div>
+    <a id="left_btn" class="bs_nav">Previous Slide</a>
+    <a id="right_btn" class="bs_nav right_btn">Next Slide</a>
+</div>
+</body>
+</html>

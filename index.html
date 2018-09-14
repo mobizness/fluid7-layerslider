@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/jquery.kenburn.min.js"></script>
+<script src="js/jquery.reference.js"></script>
+<!-- Original CSS -->
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/bs_slider.css" rel="stylesheet" />
+<link href="css/animations.css" rel="stylesheet" />
+<!-- Theme CSS -->
+<link href="css/skins/ios7.css" rel="stylesheet" />
+<script type="text/javascript" language="javascript">
+	$(document).ready(function(){
+		var tb=$(".bs_container").bs_kenburn({
+			width:774,
+			height:286,
+			autoplay:false,
+			interval:5,
+			fullwidth:true,
+			responsive:true,
+			progressbar:true,
+			swipe:true,
+			keyboard:false,
+			scrollmode:false,
+			animation:4,
+			navtype:0,
+			repeat_mode:true,
+			skin:'ios7',
+			lightbox:true,
+			pause_on_hover:true	,
+		});
+	});
+</script>
+<body style="background: #444;">
+<!-- Sample Div -->
+<div>
+	<!-- Main Container -->
+	<div class="bs_container">
+		<!-- viewport -->
+	    <div id="bs_viewport" class="bs_viewport">
+	        <div class="bs_slider">
+	            <div class="bs_slide" data-caption="The best friends"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" kzoom="2" kposx="100" kposy="-300" qtype="1" image-src="img/bg1.jpg">
+	            	<div class="bs_layer" style="position:absolute;z-index:200;width:150px;height:80px;left:50px;top:40px;background: rgb(230, 87, 0);opacity:0;border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.74902) 10px 10px 15px 0px;" start-delay="1000" start-anim-time="1000" start-easing="" start-offsetx="120" start-offsety="0" start-zoom="" start-filter-type="flipInX" start-rotate="" start-opacity="1" end-type="1" end-delay="0" end-anim-time="1000" end-easing="" end-offsetx="50" end-offsety="" end-zoom="" end-filter-type="flipOutX" end-rotate="" end-opacity="" ></div>
+	            	<div class="bs_layer tete" style="position:absolute;z-index:200;width:150px;height:140px;background: rgb(0,0,0);left:120px;top:80px;opacity:0" start-delay="" start-anim-time="" start-easing="" start-offsetx="" start-offsety="" start-zoom="" start-filter-type="" start-rotate="" start-opacity="0.9" end-type="2" end-delay="0" end-anim-time="" end-easing="linear" end-offsetx="" end-offsety="100" end-zoom="" end-filter-type="" end-rotate="180" end-opacity="0"></div>
+	            </div>
+	            <div class="bs_slide" data-caption="The best friends"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" image-src="img/bg2.jpg" kpos="1000" qtype="2"></div>
+	            <div class="bs_slide" data-caption="The best friends"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" image-src="img/bg3.jpg" qtype="3" video-src="https://www.youtube.com/embed/G2xFJUSLEv8"></div>
+	            <div class="bs_slide" data-caption="The best friends"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" image-src="img/bg4.jpg" qtype="4" video-src="https://14-lvl3-pdl.vimeocdn.com/01/448/1/27243869/60708448.mp4?expires=1487487246&token=0248ce09930acd62487bc"></div>
+	            <div class="bs_slide" data-caption="The best friends"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" image-src="img/bg5.jpg" qtype="1"></div>
+	            <div class="bs_slide" data-caption="The best friends"  data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses" image-src="img/bg6.jpg" qtype="2" kzoom="2"></div>
+	        </div>
+	    </div>
+
+	</div>
+</div>
+</body>
+</html>
